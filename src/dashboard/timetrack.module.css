@@ -1,0 +1,65 @@
+.time_container {
+  margin: 1rem;
+  text-align: center;
+  font-size: larger;
+  color: #31363f;
+  width: fit-content;
+  padding: 1rem;
+  background-color: #fefbf6;
+  border-radius: 5%;
+  box-shadow: 0px -20px 20px -20px rgba(0, 0, 0, 0.45),
+    20px 0px 20px -20px rgba(0, 0, 0, 0.45),
+    0px 20px 20px -20px rgba(0, 0, 0, 0.45),
+    -20px 0px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+.timer {
+  justify-content: space-around;
+}
+
+.time_tracked {
+  color: #1995ad;
+  font-size: larger;
+  margin: 0.2rem;
+}
+
+.break_tracked {
+  color: #a1d6e2;
+  font-size: larger;
+  margin: 0.2rem;
+}
+
+.time_btn_container {
+  margin: 0.5rem;
+
+  .time_btn_clockin {
+    margin: 1rem;
+    font-weight: 700;
+    background-color: #1995ad;
+  }
+  .time_btn_clockin:hover {
+    color: #1995ad;
+    background-color: #eef5ff;
+  }
+
+  .time_btn_break {
+    margin: 1rem;
+    font-weight: 700;
+    background-color: #a1d6e2;
+    color: #1995ad;
+  }
+  .time_btn_break:hover {
+    color: #1995ad;
+    background-color: #eef5ff;
+  }
+
+  .time_btn_clockout {
+    margin: 1rem;
+    font-weight: 700;
+    background-color: #fa7070;
+  }
+  .time_btn_clockout:hover {
+    color: #1995ad;
+    background-color: #eef5ff;
+  }
+}
